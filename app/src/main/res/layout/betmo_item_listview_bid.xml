@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/betmo_bid_item_height"
+    android:background="@color/betmo_color_bid_listview_item_background"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:layout_margin="6dp"
+    >
+
+    <betmo.com.betmo.view.NordicaTextView
+        android:id="@+id/betmo_item_listview_textview_category"
+        android:layout_width="@dimen/betmo_bid_item_image_diameter"
+        android:layout_height="@dimen/betmo_bid_item_image_diameter"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/circularbg1"
+        android:textColor="@color/betmo_color_default_textcolor"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center">
+
+        <betmo.com.betmo.view.NordicaTextView
+            android:id="@+id/betmo_item_listview_textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/betmo_color_bid_listview_item_title"
+            android:textSize="@dimen/betmo_bid_item_title_textsize"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="This is the Title"/>
+
+        <betmo.com.betmo.view.ComfortaaTextView
+            android:id="@+id/betmo_item_listview_textview_organization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/betmo_item_listview_textview_title"
+            android:textColor="@color/betmo_color_bid_listview_item_org"
+            android:text="This is the Orgranization Inc."
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/betmo_bid_item_org_textsize" />
+
+        <betmo.com.betmo.view.ComfortaaTextView
+            android:id="@+id/betmo_item_listview_textview_category_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/betmo_item_listview_textview_organization"
+            android:layout_centerHorizontal="true"
+            android:text="CATEGORY: TEST CATEGORY"
+            android:textStyle="italic"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/betmo_color_bid_listview_item_org"
+            android:textSize="@dimen/betmo_bid_item_categorytext_textsize"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

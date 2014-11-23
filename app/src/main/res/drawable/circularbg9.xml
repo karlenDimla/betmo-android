@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/betmo_color_category_9" />
+    <corners
+        android:bottomLeftRadius="@dimen/betmo_bid_item_image_radius"
+        android:bottomRightRadius="@dimen/betmo_bid_item_image_radius"
+        android:topLeftRadius="@dimen/betmo_bid_item_image_radius"
+        android:topRightRadius="@dimen/betmo_bid_item_image_radius" />
+</shape>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="betmo_color_actionbar">#22758D</color>
+    <color name="betmo_color_navigation_bar">#D05576</color>
+    <color name="betmo_color_navigation_bar_item_divider">#FC8682</color>
+    <color name="betmo_color_default_background">#616161</color>
+    <color name="betmo_color_default_button">#000000</color>
+    <color name="betmo_color_default_textcolor">#ffffff</color>
+
+
+    <color name="betmo_color_bid_listview_item_background">#CfCFCf</color>
+    <color name="betmo_color_bid_listview_item_title">#094050</color>
+    <color name="betmo_color_bid_listview_item_org">#AB2549</color>
+
+    <color name="betmo_color_category_1">#293C73</color>
+    <color name="betmo_color_category_2">#169682</color>
+    <color name="betmo_color_category_3">#094C9F</color>
+    <color name="betmo_color_category_4">#3BB8DF</color>
+    <color name="betmo_color_category_5">#AE3244</color>
+    <color name="betmo_color_category_6">#D48A8C</color>
+    <color name="betmo_color_category_7">#F4BD0D</color>
+    <color name="betmo_color_category_8">#735095</color>
+    <color name="betmo_color_category_9">#77B828</color>
+    <color name="betmo_color_category_10">#A4D1CD</color>
+    <color name="betmo_color_category_11">#B7D6B2</color>
+
+    <color name="betmo_color_bid_view_title">#094050</color>
+    <color name="betmo_color_bid_view_org">#AB2549</color>
+
+    <color name="surprise_color_pinoyhenyo_common_background_gray_transparent">#B32E2E2E</color>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/betmo_color_default_background"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@color/betmo_color_bid_listview_item_background">
+
+        <LinearLayout
+            android:id="@+id/holder1"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <betmo.com.betmo.view.ComfortaaTextView
+                android:id="@+id/activity_listitem_qty"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/circularbg4"
+                android:textColor="@color/betmo_color_default_textcolor"
+                android:text="12"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="25sp"/>
+            <betmo.com.betmo.view.ComfortaaTextView
+                android:id="@+id/activity_listitem_oum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sacks"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            </LinearLayout>
+            <betmo.com.betmo.view.NordicaTextView
+                android:id="@+id/activity_listitem_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/betmo_color_bid_view_title"
+                android:text="Dinorado Rice"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+        <betmo.com.betmo.view.NordicaTextView
+            android:id="@+id/activity_listitem_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/holder1"
+            android:text="Dinorado Rice Dinorado Rice Dinorado Rice Dinorado Rice Dinorado Rice Dinorado Rice Dinorado Rice Dinorado Rice"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:maxLines="3"/>
+        <betmo.com.betmo.view.NordicaTextView
+            android:id="@+id/activity_listitem_budget"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/activity_listitem_desc"
+            android:background="@color/betmo_color_bid_view_title"
+            android:textColor="@color/betmo_color_default_textcolor"
+            android:text="BUDGET: P 1,000,000.00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="13sp"/>
+
+        <LinearLayout
+            android:id="@+id/holder_isawarded"
+            android:layout_below="@+id/activity_listitem_budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <include
+                layout="@layout/betmo_item_awareded_item"
+                android:id="@+id/awarded_item"
+                />
+            <include
+                layout="@layout/betmo_item_peopleschoice_item"
+                android:id="@+id/peopleschoice_item"/>
+
+            </LinearLayout>
+        <betmo.com.betmo.view.NordicaTextView
+            android:id="@+id/activity_listitem_isawarded_total_bids"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/holder_isawarded"
+            android:background="@color/betmo_color_bid_view_title"
+            android:textColor="@color/betmo_color_default_textcolor"
+            android:text="TOTAL BIDS: 200"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="15sp"/>
+        <ListView
+            android:layout_below="@+id/activity_listitem_isawarded_total_bids"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_listitem_bidders"/>
+    </RelativeLayout>
+
+</LinearLayout>

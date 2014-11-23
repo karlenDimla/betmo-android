@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="betmo_actionbar_titles">
+        <item>BetMo</item>
+        <item>What\'s Hot</item>
+        <item>New</item>
+        <item>Awarded</item>
+        <item>Kabantay Leaderboards</item>
+    </string-array>
+    <string-array name="betmo_navigation_items">
+        <item>What\'s Hot</item>
+        <item>New</item>
+        <item>Awarded</item>
+        <item>Kabantay Leaderboards</item>
+    </string-array>
+</resources>

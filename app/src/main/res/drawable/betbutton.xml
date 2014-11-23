@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/betmo_color_navigation_bar" />
+    <corners
+        android:bottomLeftRadius="@dimen/betmo_bet_button_radius"
+        android:bottomRightRadius="@dimen/betmo_bet_button_radius"
+        android:topLeftRadius="@dimen/betmo_bet_button_radius"
+        android:topRightRadius="@dimen/betmo_bet_button_radius" />
+</shape>

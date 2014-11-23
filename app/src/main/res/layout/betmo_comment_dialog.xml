@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/surprise_color_pinoyhenyo_common_background_gray_transparent">
+    <ImageButton
+        android:id="@+id/comment_send_close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/betmo_close"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/comment_send_edittext"/>
+
+    <betmo.com.betmo.view.ComfortaaEditText
+        android:id="@+id/comment_send_edittext"
+        android:hint="Type in your comments..."
+        android:background="@drawable/bgwhite"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"/>
+
+    <betmo.com.betmo.view.ComfortaaButton
+        android:id="@+id/comment_send_submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/comment_send_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/betmo_color_bid_view_title"
+        android:text="SUBMIT"
+        />
+
+</RelativeLayout>

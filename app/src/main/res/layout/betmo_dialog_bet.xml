@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surprise_color_pinoyhenyo_common_background_gray_transparent">
+    <betmo.com.betmo.view.ComfortaaTextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:textSize="50sp"
+        android:text="BET!!!"
+        android:textColor="@color/betmo_color_default_textcolor"
+        android:gravity="center"
+        android:background="@drawable/betbutton"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

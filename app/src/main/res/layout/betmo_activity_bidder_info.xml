@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/betmo_color_default_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/betmo_color_bid_listview_item_background"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/bidder_bet_data"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <betmo.com.betmo.view.NordicaTextView
+                android:id="@+id/bidder_bets"
+                android:background="@drawable/betbutton"
+                android:text="12"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/betmo_color_default_textcolor"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <betmo.com.betmo.view.NordicaTextView
+                android:text="BETS"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        <betmo.com.betmo.view.NordicaTextView
+            android:id="@+id/bidder_title"
+            android:layout_toRightOf="@+id/bidder_bet_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/betmo_color_bid_view_title"
+            android:text="Bidder Name"/>
+        <betmo.com.betmo.view.NordicaTextView
+            android:layout_toRightOf="@+id/bidder_bet_data"
+            android:id="@+id/bidder_org"
+            android:layout_below="@+id/bidder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/betmo_color_bid_view_org"
+            android:text="Bidder Organization Name"/>
+
+        <betmo.com.betmo.view.ComfortaaTextView
+            android:id="@+id/bid_view_budget"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="BUDGET:P1,000,000.00"
+            android:layout_below="@+id/bidder_bet_data"
+            android:background="@color/betmo_color_category_1"
+            android:textColor="@color/betmo_color_default_textcolor"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"/>
+
+        <ListView
+            android:id="@+id/bidder_comments_list"
+            android:layout_below="@+id/bid_view_budget"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

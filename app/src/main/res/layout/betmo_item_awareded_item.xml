@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100sp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="3dp"
+    android:layout_weight="1"
+    android:background="@color/betmo_color_bid_listview_item_background">
+    <betmo.com.betmo.view.NordicaTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AWARDED"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:minLines="2"
+        android:textColor="@color/betmo_color_actionbar"
+        android:textSize="10sp"/>
+    <betmo.com.betmo.view.ComfortaaTextView
+        android:id="@+id/awarded_vote_count"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textColor="@color/betmo_color_default_textcolor"
+        android:background="@color/betmo_color_actionbar"
+        android:text="100000 votes"
+        android:padding="3dp"
+        android:textSize="15sp"/>
+    <betmo.com.betmo.view.ComfortaaTextView
+        android:id="@+id/awarded_vote_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Ruel and Friends Incorporated"
+        android:textStyle="italic"
+        android:maxLines="3"
+        android:textSize="10sp"/>
+</LinearLayout>
